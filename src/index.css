@@ -40,10 +40,14 @@ button{
 }
 .footer{
   display: flex;
+  
   margin-bottom: 5%;
 }
 .last{
+  margin-left: 10%;
+  border-top: rgb(120, 117, 117) 1px solid;
   display: flex;
+  margin-right: 7.5%;
   margin-top: 2rem;
 }
 .bot{
@@ -51,11 +55,14 @@ button{
   height: auto;
   position: relative;
   left: 5%;
-  margin-left:6%;
-  /* margin-left: 20%; */
+  margin-left:40%;
+ margin-top: 2%;
+}
+.one{
+  margin-left:-4.5%;
 }
 .two, .three{
-  margin-left: 26%;
+  margin-left: 33%;
 }
 .two{
   width: 15%;
@@ -119,13 +126,16 @@ button{
   .bot{
     width: 30%;
   }
+  .one{
+    margin-top: 7.5%;
+  }
   .two, .three{
-    margin-left: 6%;
-    margin-bottom: 1rem;
+    margin-left: -5.5%;
+    margin-bottom: 0rem;
   }
   .two{
     width: fit-content;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
   }
   .dots{
     display: block;

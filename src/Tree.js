@@ -37,9 +37,9 @@ const Tree=()=>{
           <img src={social} className='git' alt='' /> <br /> 
           </div>
         </div>
-
+    {/* <hr/> */}
         <div className='last' >
-        <img src={zuri} className='bot' alt='' /> <br /> 
+        <img src={zuri} className='bot one' alt='' /> <br /> 
         <img src={text} className='bot two' alt='' /> <br /> 
         <img src={IG} className='bot three ' alt='' /> <br /> 
         </div>
