@@ -1,0 +1,133 @@
+body{
+  background-color: white;
+}
+.container{
+  width: 100vw;
+  position: relative;
+  /* left: 40%; */
+}
+.amaka{
+  margin-top: 5%;
+  width: 3%;
+  height: auto;
+  margin-left: 2%;
+  border-radius: 50%;
+}
+.imagecont{
+  position: relative;
+  display: flex;
+  left: 46.5%;
+  margin-bottom: 10px;
+}
+.container{
+  display: block;
+  margin-bottom: 0%;
+}
+.name{
+  padding-left: 45.5%;
+  font-size: 1.2rem;
+}
+.linkcont{
+  margin-top: 1%;
+}
+button{
+  width: 80%;
+  padding: 16px;
+  margin-left: 10%;
+  margin-bottom: 7px;
+  background-color: rgb(217, 221, 223);
+  border: 0px rgb(217, 221, 223) solid
+}
+.footer{
+  display: flex;
+  margin-bottom: 5%;
+}
+.last{
+  display: flex;
+  margin-top: 2rem;
+}
+.bot{
+ width: 6%;
+  height: auto;
+  position: relative;
+  left: 5%;
+  margin-left:6%;
+  /* margin-left: 20%; */
+}
+.two, .three{
+  margin-left: 26%;
+}
+.two{
+  width: 15%;
+}
+.dots{
+  display: none;
+}
+.slack, .git{
+  display: flex;
+  position: relative;
+  left: 46.5%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  width: 1.5%;
+  height: auto;
+}
+@media screen and (max-width:600px){
+  body{
+    overflow-x: hidden;
+  }
+  html{
+    overflow-x: hidden;
+  }
+  .amaka{
+    margin-top: 10%;
+    width: 10%;
+   position: relative;
+    margin-left: 7%;
+    border-radius: 50%;
+  }
+  .linkcont{
+    margin-top: 7%;
+  }
+  button{
+    font-size: 1.2rem;
+    margin-left: 8.5%;
+  }
+  .imagecont{
+    left: 37%;
+  }
+  .slack,.git{
+    width: 6%;
+    left: 35%;
+  }
+  .dots{
+    width: fit-content;
+    height: 5px;
+    left: 20%;
+    position: relative;
+    bottom: 20%;
+    margin-top: 15%;
+  }
+  .last{
+    display: block;
+    margin-top: 12%;
+ 
+  }
+  .name{
+    padding-left: 33%;
+  }
+  .bot{
+    width: 30%;
+  }
+  .two, .three{
+    margin-left: 6%;
+    margin-bottom: 1rem;
+  }
+  .two{
+    width: fit-content;
+    margin-top: 1rem;
+  }
+  .dots{
+    display: block;
+  }
+}
