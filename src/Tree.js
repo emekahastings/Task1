@@ -23,7 +23,7 @@ const Tree=()=>{
          
             <Router>
           <div className='linkcont'>
-            
+          <a href="https://twitter.com/EmekaHastings" id='twitter' > Twitter </a> <br />
           <a href="https://training.zuri.team/" id='btn_zuri' > Zuri team </a> <br />
            <a href='https://books.zuri.team' id='books' >   Zuri books <br />   </a>  <br />         
            <a href='https://books.zuri.team/python-for-beginners?ref_id=<EmekaHastings>' id='python' >  Python Books  </a> <br />
