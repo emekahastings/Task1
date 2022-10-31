@@ -14,21 +14,21 @@ const Tree=()=>{
           <div className='first' >
             <div className='imagecont'> 
           
-    <img src={image} className='amaka' alt='' /> 
+    <img src={image} className='amaka' id='profile__img' alt='' /> 
     <img src={icon} className='dots' alt='' /> 
             </div>
-            <b className='name'>Emeka Hastings</b>
+            <b className='name' id='twitter'>Emeka Hastings</b> <br />
+            <b className='name' id='slack'>emekahastings</b>
             </div>
          
             <Router>
           <div className='linkcont'>
             
-           <a href="http://twitter.com/EmekaHastings">  <button id='twitter'  >Twitter Link</button> <br /> </a>
-          <a href="https://training.zuri.team/" >  <button  id='btn_zuri' >Zuri team</button> <br /> </a>
-           <a href='https://books.zuri.team'>  <button  id='books' >  Zuri books</button> <br /> </a> 
-           <a href='https://books.zuri.team/python-for-beginners?ref_id=<EmekaHastings>' >  <button  id='python' >Python Books</button> <br /> </a>
-           <a href='https://background.zuri.team'>  <button  id='pitch' >Background check for coders</button> <br /> </a>
-           <a href='https://books.zuri.team/design-rules'>  <button  id='book_design' >Design Books</button> <br /> </a>
+          <a href="https://training.zuri.team/" id='btn_zuri' > Zuri team </a> <br />
+           <a href='https://books.zuri.team' id='books' >   Zuri books <br />   </a>  <br />         
+           <a href='https://books.zuri.team/python-for-beginners?ref_id=<EmekaHastings>' id='python' >  Python Books  </a> <br />
+           <a href='https://background.zuri.team'  id='pitch' > Background check for coders  </a> <br />
+           <a href='https://books.zuri.team/design-rules' id='book_design' > Design Books </a>  <br />
  
           </div>
           </Router>

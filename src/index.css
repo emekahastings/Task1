@@ -10,7 +10,7 @@ body{
   margin-top: 5%;
   width: 3%;
   height: auto;
-  margin-left: 2%;
+  margin-left: 3%;
   border-radius: 50%;
 }
 .imagecont{
@@ -20,6 +20,7 @@ body{
   margin-bottom: 10px;
 }
 .container{
+  width: 100%;
   display: block;
   margin-bottom: 0%;
 }
@@ -29,23 +30,29 @@ body{
 }
 .linkcont{
   margin-top: 1%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
 }
-button{
-  width: 80%;
-  padding: 16px;
+ a{
+  width: 80%;  
+  padding: 13px;
   margin-left: 10%;
-  margin-bottom: 7px;
+  margin-right: 10%;
   background-color: rgb(217, 221, 223);
-  border: 0px rgb(217, 221, 223) solid
+  border: 0px rgb(217, 221, 223) solid;
+  color: black;
+  text-decoration: none;
 }
 .footer{
   display: flex;
-  
   margin-bottom: 5%;
 }
 .last{
   margin-left: 10%;
-  border-top: rgb(120, 117, 117) 1px solid;
+  border-top: rgb(190, 187, 187) 1px solid;
   display: flex;
   margin-right: 7.5%;
   margin-top: 2rem;
@@ -68,6 +75,9 @@ button{
   width: 15%;
 }
 .dots{
+  display: none;
+}
+#slack{
   display: none;
 }
 .slack, .git{
@@ -95,6 +105,15 @@ button{
   }
   .linkcont{
     margin-top: 4%;
+    right: 4%;
+  }
+  a{
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+ 
+  #slack{
+    display: none;
   }
   button{
     font-size: 1.05rem;
