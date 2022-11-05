@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.912e635e.css",
+    "main.js": "/static/js/main.b191f0a7.js",
+    "static/js/787.b755f208.chunk.js": "/static/js/787.b755f208.chunk.js",
+    "static/media/Emeka.jpg": "/static/media/Emeka.5f9892d077474270ba7f.jpg",
+    "index.html": "/index.html",
+    "main.912e635e.css.map": "/static/css/main.912e635e.css.map",
+    "main.b191f0a7.js.map": "/static/js/main.b191f0a7.js.map",
+    "787.b755f208.chunk.js.map": "/static/js/787.b755f208.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.912e635e.css",
+    "static/js/main.b191f0a7.js"
+  ]
+}
