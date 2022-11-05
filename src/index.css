@@ -108,14 +108,17 @@ body{
 }
 .lol>input{
   width: 50%;
+  font-family:  Helvetica, sans-serif;
   padding: 3px;
 }
 .hi{
+  font-family:  Helvetica, sans-serif;
   margin-top: 2.5%;
   margin-bottom: 3%;
 }
 .email{
   width: 50%;
+  font-family:  Helvetica, sans-serif;
   padding: 3px;
 }
 
@@ -125,12 +128,14 @@ body{
 .checktext{
   font-size: 1rem;
   margin-left: 0.2rem;
+  font-family:  Helvetica, sans-serif;
 }
 .submit{
   text-align: center;
   background-color: blue;
   color: white;
   padding: 5px;
+  font-family:  Helvetica, sans-serif;
   border: none;
   width: 51%;
 }
@@ -226,16 +231,19 @@ body{
   }
   .lol>input{
     width: 90%;
-    padding: 4.5px;
+    padding: 20px;
     border: 0.5px solid rgb(124, 122, 122);
-    padding: 2%;
+    font-family:  Helvetica, sans-serif;
+    padding: 3%;
   }
   .lol>p{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    font-family:  Helvetica, sans-serif;
   }
   .hi{
     margin-top: 7.5%;
     line-height: 20px;
+    font-family:  Helvetica, sans-serif;
     font-size: 1.3rem;
     margin-bottom: 5%;
   }
@@ -243,15 +251,16 @@ body{
     width: 90%;
     padding: 3px;
     border: 0.5px solid rgb(104, 102, 102);
-    padding: 2%;
+    padding: 3%;
   
   }
   .oda{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .area{
     border: 0.5px rgb(104, 102, 102) solid;
     width: 93%;
+    font-family:  Helvetica, sans-serif;
     font-size: 1rem;
   }
   .check{
@@ -259,11 +268,11 @@ body{
   }
   .checkbox{
     width: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 0%;
   }
   .checktext{
    font-family: serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-left: 0.2rem;
     line-height: 23px;
   }
@@ -271,7 +280,7 @@ body{
     text-align: center;
     background-color: blue;
     color: white;
-    padding: 5px;
+    padding: 7.5px;
     border: none;
     width: 93%;
   }
@@ -284,6 +293,7 @@ body{
   .error{
     display: block;
     color: red;
+    font-family:  Helvetica, sans-serif;
     font-weight: 600;
   }
 }

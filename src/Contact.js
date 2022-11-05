@@ -12,8 +12,8 @@ const Contact=()=>{
     settext(event.target.value)
      console.log(event.target.value)
     }
-    function submit(){
-  
+    function submit(event){
+    event.preventDefault()
           if(text==='' ){
           seterror({
             message:'Please Enter a message'
@@ -23,21 +23,21 @@ const Contact=()=>{
         }
 
     return(
-      
+      <form method='post'>
        <div className='intro'>
         <h1>Contact Me</h1>  
       <p className="hi">  Hi there, contact me to ask about anything you have in mind  </p> 
        
        <div className="lol">
          <p>First Name</p> 
-        <input type={'text'} className='first' required id="first_name" placeholder="Enter tyour first Name" />
+        <input type={'text'} className='first' id="first_name" placeholder="Enter tyour first Name" aria-required />
 
         <p>Last Name</p> 
-        <input type={'text'} className='lastt' id="last_name" placeholder="Enter your last name" />
+        <input type={'text'} className='lastt' id="last_name" placeholder="Enter your last name"  aria-required />
       </div>
 
       <p className="oda">Email</p>
-      <input type={'email'} className='email' id='email' placeholder="yourname@email.com" required  />
+      <input type={'email'} className='email' id='email' placeholder="yourname@email.com" aria-required  />
 
       <p className="oda">Message</p>
       <textarea className="area" rows='6' cols={'64'} placeholder='Send me a message and i will reply as soon as possible'  onChange={shine}  >
@@ -61,7 +61,7 @@ const Contact=()=>{
         <img src={IG} className='bot three ' alt='' /> <br /> 
         </div>
        </div>
-     
+      </form>
     )
 }
 
