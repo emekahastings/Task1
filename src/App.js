@@ -1,6 +1,6 @@
 import Tree from "./Tree";
 import Contact from './Contact'
-import {Routes, Route,  BrowserRouter} from 'react-router-dom'
+import {Routes, Route} from 'react-router-dom'
 
 function App() {
   return (

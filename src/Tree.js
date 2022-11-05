@@ -3,7 +3,7 @@ import slack from './slack.png'
 import text from './Footer text.jpg'
 import icon from './Icon.png'
 import IG from './I4G.jpg'
-import {Routes, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import zuri from './Zuri.Internship_Logo.jpg'
 import  social from './Social icon.jpg'
 

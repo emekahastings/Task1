@@ -1,4 +1,4 @@
-import text from './Footer text.jpg'
+import texts from './Footer text.jpg'
 import IG from './I4G.jpg'
 import zuri from './Zuri.Internship_Logo.jpg'
 import { useState } from 'react'
@@ -57,7 +57,7 @@ const Contact=()=>{
 
        <div className='last' >
         <img src={zuri} className='bot one' alt='' /> <br /> 
-        <img src={text} className='bot two' alt='' /> <br /> 
+        <img src={texts} className='bot two' alt='' /> <br /> 
         <img src={IG} className='bot three ' alt='' /> <br /> 
         </div>
        </div>
