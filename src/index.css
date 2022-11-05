@@ -46,6 +46,13 @@ body{
   color: black;
   text-decoration: none;
 }
+.sub{
+  display: none;
+  line-height: 10px;
+}
+#sub:hover{
+  display: block;
+}
 .footer{
   display: flex;
   margin-bottom: 5%;
@@ -88,6 +95,50 @@ body{
   margin-left: 1rem;
   width: 1.5%;
   height: auto;
+}
+.intro{
+  margin-top: 5%;
+  margin-left: 30%;
+  line-height: 5px;
+}
+.lol{
+  display: flex;
+  flex-direction: column;
+  line-height: 5px;
+}
+.lol>input{
+  width: 50%;
+  padding: 3px;
+}
+.hi{
+  margin-top: 2.5%;
+  margin-bottom: 3%;
+}
+.email{
+  width: 50%;
+  padding: 3px;
+}
+
+.check{
+  display: flex;
+}
+.checktext{
+  font-size: 1rem;
+  margin-left: 0.2rem;
+}
+.submit{
+  text-align: center;
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  border: none;
+  width: 51%;
+}
+.su{
+  margin-top: 3%;
+}
+.error{
+  display: none;
 }
 @media screen and (max-width:600px){
   body{
@@ -158,5 +209,81 @@ body{
   }
   .dots{
     display: block;
+  }
+
+  .intro{
+    margin-top: 12%;
+    margin-left: 2%;
+    line-height: 5px;
+  }
+  .intro>h1{
+    font-size: 2rem;
+  }
+  .lol{
+    display: flex;
+    flex-direction: column;
+    /* line-height: 5px; */
+  }
+  .lol>input{
+    width: 90%;
+    padding: 4.5px;
+    border: 0.5px solid rgb(124, 122, 122);
+    padding: 2%;
+  }
+  .lol>p{
+    font-size: 1.4rem;
+  }
+  .hi{
+    margin-top: 7.5%;
+    line-height: 20px;
+    font-size: 1.3rem;
+    margin-bottom: 5%;
+  }
+  .email{
+    width: 90%;
+    padding: 3px;
+    border: 0.5px solid rgb(104, 102, 102);
+    padding: 2%;
+  
+  }
+  .oda{
+    font-size: 1.4rem;
+  }
+  .area{
+    border: 0.5px rgb(104, 102, 102) solid;
+    width: 93%;
+    font-size: 1rem;
+  }
+  .check{
+    display: flex;
+  }
+  .checkbox{
+    width: 5%;
+    margin-bottom: 5%;
+  }
+  .checktext{
+   font-family: serif;
+    font-size: 1.3rem;
+    margin-left: 0.2rem;
+    line-height: 23px;
+  }
+  .submit{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border: none;
+    width: 93%;
+  }
+  .su{
+    margin-top: 3%;
+    margin-left: 0%;
+    position: relative;
+    right: 6%;
+  }
+  .error{
+    display: block;
+    color: red;
+    font-weight: 600;
   }
 }
